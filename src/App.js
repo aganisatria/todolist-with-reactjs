@@ -68,7 +68,7 @@ const App = () => {
         )}
       </div>
       <h4 className='mt-5'>List To Do</h4>
-      <ToDoListTable toDos={toDos} editRow={editRow} deleteTodo={deleteToDo} />
+      <ToDoListTable toDos={toDos} editRow={editRow} deleteToDo={deleteToDo} />
     </div>
   )
 }
